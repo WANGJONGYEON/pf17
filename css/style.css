@@ -1,3 +1,7 @@
+/* * {
+    outline: 1px solid tomato;
+} */
+
 .header {
     position: fixed;
     top: 0;
@@ -135,7 +139,7 @@
     }
 
     .header img {
-        height: 48px;
+        height: 40px;
     }
 
     .header .gnb>ul>li {
@@ -332,6 +336,7 @@
 }
 
 .main_visual .main_visual_slide strong {
+
     font-size: 56px;
     font-weight: 600;
 
@@ -407,7 +412,7 @@
     }
 
     .main_visual .main_visual_slide .itm {
-        height: 100vh
+        height: 950px
     }
 
     .main_visual .main_visual_slide .itm::before {
@@ -453,7 +458,7 @@
     }
 
     .main_visual .main_visual_slide p {
-        font-size: 2.5vw;
+        font-size: 2.3vw;
         font-weight: 400;
         line-height: 24px;
         color: #fff;
@@ -461,6 +466,8 @@
         /*  */
         margin: 0 16px;
         margin-top: 16px;
+        line-height: 1.5;
+        word-break: keep-all;
     }
 
     .main_visual .arrows {
