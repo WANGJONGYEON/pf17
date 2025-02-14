@@ -44,7 +44,7 @@
     top: 88px;
     left: 50%;
     z-index: 3;
-    width: 200px;
+
 
     opacity: 0;
     visibility: hidden;
@@ -67,6 +67,7 @@
 
     white-space: nowrap;
     text-align: center;
+    padding: 0 16px;
 }
 
 .header .gnb>ul>li:hover ul {
@@ -147,9 +148,11 @@
     }
 
     .header .gnb>ul>li>a {
+        display: block;
         line-height: 80px;
         /*  */
         line-height: 40px;
+        border-bottom: 1px solid #ddd;
     }
 
     .header .gnb>ul>li ul {
@@ -176,6 +179,7 @@
         position: static;
         transform: translate(0, 0);
         border-radius: 0;
+        width: 100%;
 
         display: none;
         opacity: 1;
@@ -448,7 +452,7 @@
     }
 
     .main_visual .main_visual_slide strong {
-        font-size: 6.5vw;
+        font-size: 6vw;
         font-weight: 600;
 
         color: #fff;
@@ -465,7 +469,7 @@
         margin-top: 24px;
         /*  */
         margin: 0 16px;
-        margin-top: 16px;
+        margin-top: 8px;
         line-height: 1.5;
         word-break: keep-all;
     }
