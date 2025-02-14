@@ -994,7 +994,7 @@
 .footer .itm_box img:hover {
 
     border-radius: 8px;
-    background: #a0a0a0;
+    background: rgb(0, 0, 0, 0.25);
 
 }
 
@@ -1088,7 +1088,7 @@
     .footer .itm_box img:hover {
 
         border-radius: 8px;
-        background: #a0a0a0;
+        background: rgb(0, 0, 0, 0.25);
 
     }
 }
